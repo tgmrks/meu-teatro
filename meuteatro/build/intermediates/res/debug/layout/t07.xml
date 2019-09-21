@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:background="#444444"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="1"
+        android:id="@+id/tableRow"
+        android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Teatro"
+            android:id="@+id/txtViewMeusTeatrosTeatro"
+            android:textColor="#ffffffff"
+
+            android:focusable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text=" - Cidade"
+            android:textSize="18sp"
+            android:id="@+id/txtViewDetalheCidade"
+            android:textColor="#ffffffff"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="(UF)"
+            android:textSize="18sp"
+            android:id="@+id/txtViewDetalheUf"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.46"
+            android:textColor="#ffffffff"
+             />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/Row2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRow"
+        android:layout_alignParentLeft="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/dummy1"
+            android:layout_span="3"
+            android:id="@+id/imageViewDetalhe" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+        android:layout_above="@+id/btnDetalheComprar"
+        android:layout_below="@+id/tableRow3">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_below="@+id/txtViewDetalheTitulo"
+            android:layout_above="@+id/btnDetalheComprar"
+            android:paddingLeft="2dp">
+
+            <TextView
+                android:id="@+id/txtViewDetalheDescricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="A descrição (do latim descriptio, onis, figura, representação, de describere, escrever conforme o original, copiar, transcrever) é a enumeração das características próprias dos seres, coisas, cenários, ambientes, costumes, impressões etc."
+                android:layout_below="@+id/txtViewDetalheTitulo"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffffff"
+                android:layout_weight="0.25" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stringClassificacao"
+                    android:id="@+id/textViewClassificacao"
+                    android:textColor="#ffffffff"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:layout_gravity="center" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageViewClassificacao2"
+                    android:src="@drawable/c_0"
+                    android:layout_marginLeft="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stringEntrada"
+                    android:id="@+id/textViewEntrada"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="entrada"
+                        android:id="@+id/txtViewDetalheEntrada"
+                        android:layout_weight="0"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ffffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stringDatas"
+                    android:id="@+id/textViewDatas"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="data e hora"
+                    android:id="@+id/txtViewDetalheDataHora"
+                    android:layout_weight="0.1"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ffffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stringLocal"
+                    android:id="@+id/textViewLocal"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold"
+                    android:textColor="#ffffffff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="local"
+                    android:id="@+id/txtViewDetalheEndereco"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#ffffffff" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="#444444"
+        android:layout_below="@+id/Row2"
+        android:id="@+id/tableRow3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:text="Titulo da peça"
+            android:id="@+id/txtViewDetalheTitulo"
+            android:textSize="18sp"
+            android:layout_below="@+id/Row2"
+            android:layout_marginTop="1dp"
+            android:textColor="#ffffffff"
+            android:layout_marginLeft="2dp"
+            android:layout_marginBottom="2dp" />
+
+        </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringComprar"
+        android:id="@+id/btnDetalheComprar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentLeft="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:background="#444444" />
+
+</RelativeLayout>
+
+
+<!-- From: file:/home/ismael/Documentos/MeuTeatro/MeuTeatro/src/main/res/layout/t07.xml -->

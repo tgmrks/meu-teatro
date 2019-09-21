@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffe7e7e7"
+    android:layout_height="match_parent"
+    android:id="@+id/RelativeLayoutConfig"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayoutConfig1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ff4d4d4d"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strMinhaCidade"
+                android:id="@+id/txtConfigMinhaCidade"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:singleLine="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strEstado"
+            android:id="@+id/txtConfigUF"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:id="@+id/spinnerConfigUF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strCidade"
+            android:id="@+id/txtConfigCidade"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:id="@+id/spinnerConfigCidade"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayoutConfig2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/LinearLayoutConfig1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ff4d4d4d"
+            android:layout_marginTop="10dp"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strUtilDados"
+                android:id="@+id/txtConfigUtilDados"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:singleLine="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chkBoxFeedWifi"
+            android:text="Atualização de dados somente via Wi-Fi"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayoutCondifg3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/LinearLayoutConfig2"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#444444"
+            android:layout_marginTop="10dp"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strConfigUpdate"
+                android:id="@+id/txtConfigUpdate"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:singleLine="false"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rdGroupUpdateFeed"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strUpdateOp1"
+                android:id="@+id/rdbUpdateOp1"
+                android:checked="false"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strUpdateOp2"
+                android:id="@+id/rdbUpdateOp2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strUpdateOp3"
+                android:id="@+id/rdbUpdateOp3"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                />
+        </RadioGroup>
+    </LinearLayout>
+</TableLayout>
+</ScrollView>
+    <!--<Button-->
+        <!--android:id="@+id/btnConfirmar1"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/strMeusTeatros"-->
+        <!--android:textColor="#ffffffff"-->
+        <!--android:background="#ff4d4d4d"-->
+        <!--android:layout_alignParentLeft="false"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:layout_alignParentTop="false"-->
+        <!--android:layout_marginTop="908dp"-->
+        <!--android:layout_alignParentBottom="true" />-->
+</RelativeLayout>

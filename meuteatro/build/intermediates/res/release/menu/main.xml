@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mn_tela_principal"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/tela_principal"/>
+
+    <item
+        android:id="@+id/mn_teatros"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/meus_teatros"/>
+
+    <item
+        android:id="@+id/mn_config"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/config"/>
+
+    <item
+        android:id="@+id/mn_sobre"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/StringQuemSomosTitulo"/>
+    <item
+        android:id="@+id/sair"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sair"/>
+
+</menu>
+<!-- From: file:/home/ismael/Documentos/MeuTeatro/MeuTeatro/src/main/res/menu/main.xml -->

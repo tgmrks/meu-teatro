@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meu Teatro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="stringLogin">Login</string>
+    <string name="stringSenha">Senha</string>
+    <string name="stringEmail">E-mail</string>
+    <string name="stringPossuiLogin">Já possui cadastro?</string>
+    <string name="stringConfirmarSenha">Confirme a senha</string>
+    <string name="hintLogin">"Digite um login"</string>
+    <string name="hintSenha">Digite uma senha</string>
+    <string name="hintConfirmarSenha">Digite sua senha  novamente</string>
+    <string name="hintEmail">Digite seu e-mail</string>
+    <string name="stringConfirmar">Confirmar</string>
+    <string name="stringUtilDados">Utilização de dados</string>
+    <string name="stringUpdateFeeds">Atualização dos feeds</string>
+    <string name="stringUtilDados1">Dados móveis ou Wi-Fi</string>
+    <string name="stringUtilDados2">Apenas Wi-Fi</string>
+    <string name="stringUpdateFeeds1">Diáriamente</string>
+    <string name="stringUpdateFeeds2">Semanalmente</string>
+    <string name="stringUpdateFeeds3">Mensalmente</string>
+    <string name="stringUpdateFeeds4">Acionar manualmente</string>
+    <string name="stringNext">Proximo</string>
+    <string name="stringLocalizacao">Opição de localização</string>
+    <string name="stringOpTeatro">Informe sua cidade: </string>
+    <string name="stringOpLocalizacao1">Localização manual</string>
+    <string name="stringOpLocalizacao2">Localização por GPS</string>
+    <string name="stringOpTeatro1">Obter de minha cidade</string>
+    <string name="stringAddTeatro1">Meus Teatros</string>
+    <string name="stringAvaliar">Gostaria de avaliar?</string>
+    <string name="stringAvaliar2">Avaliar</string>
+    <string name="stringAvaliarSim">Confirmar</string>
+    <string name="stringAvaliarNao">Não desejo avaliar</string>
+    <string name="stringAvaliacao">Avaliação</string>
+    <string name="stringComprar">Site para compra de ingresso</string>
+    <string name="stringFinalizarCompra">Finalizar compra</string>
+    <string name="stringPrecoUnidade"></string>
+    <string name="stringQtdMenos">-</string>
+    <string name="stringQtdMais">+</string>
+    <string name="stringValorTotal">"total = "</string>
+    <string name="stringAddCartao1">Adicionar Cartão</string>
+    <string name="stringFinalizarCompra2">Finalizar</string>
+    <string name="stringDetalheCompra1"></string>
+    <string name="stringDetalheCompra2"></string>
+    <string name="stringDetalheCompra3"></string>
+    <string name="stringDetalheCompra4"></string>
+    <string name="stringDetalheCompra5"></string>
+    <string name="stringComprovanteEmail">Enviar por e-mail</string>
+    <string name="stringAvendarEvento1">Criar evento na agenda?</string>
+    <string name="stringAgendarEvento2">Sim</string>
+    <string name="stringAgendarEvento3">Não</string>
+    <string name="stringLembrete">Adicionar periodo do lembrete</string>
+    <string name="stringConfiguracao1">Menu de configurações</string>
+    <string name="stringAgenda1">Eventos agendados</string>
+    <string name="stringNumCartao">Número do cartão</string>
+    <string name="stringNomeCartao">Nome do titular do cartão</string>
+    <string name="stringAddCartao2">Cadastrar</string>
+     <string name="config">Configurações</string>
+    <string name="meus_teatros">Meus Teatros</string>
+    <string name="meus_ingressos">Meus Ingressos</string>
+    <string name="minha_conta">Minha Conta</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
+    <string name="stringTitulo1">Titulo teste</string>
+    <string name="stringDescricao1">Teste teste teste teste</string>
+    <string name="stringTeatro1">Nome Teste</string>
+    <string name="stringClassificacao">Classificação indicativa:</string>
+    <string name="stringDatas">Data(s):</string>
+    <string name="stringQuitQuestion">Precione voltar novamente para sair</string>
+    <string name="stringEntrada">Entrada:</string>
+    <string name="stringNo">No</string>
+    <string name="stringYes">Sim</string>
+    <string name="stringLocal">Local:</string>
+    <string name="hintCidade">Insira sua cidade aqui</string>
+
+    <string name="StringQuemSomos">
+        O Meu Teatro é um app desenvolvido como projeto de conclusão de curso para graduação de
+        tecnologia em Análise e Desenvolvimento de Sistemas pela FATEC de Mogi Mirim “Arthur de Azevedo”.
+        Nossa equipe é composta pelos formandos Alexsandro M. Dias, Ismael T. Marques e Hugo F. B. Trevellin e
+        como orientador o professor e coordenador Luiz H. Biazotto e Marcos Nava como coorientador.
+        O Meu Teatro irá lhe ajudar a encontrar e acompanhar as agendas dos teatros de sua localidade
+        ou dos teatros de sua preferência. Bom espetáculo!
+    </string>
+
+    <string name="stringAbout1">
+        \tA divulgação de espetáculos teatrais pode ser realizada por meios
+físicos, como cartazes, outdoors, folders, banners; ou também, outros meios,
+como anúncios e comerciais de TV, rádio, entre outros. Meios que necessitam
+que o público consumidor esteja no lugar certo ou na hora certa para obter
+conhecimento de tal evento. A internet, por outro lado, permite que
+a informação esteja disponível em sites e redes sociais, sem tais limitações.
+    </string>
+    <string name="stringAbout2">
+        \tA proposta do aplicativo Meu Teatro, apoia-se justamente nesta
+premissa que a internet apresenta. O Meu Teatro trará informações de peças teatrais organizadas por cidade ou
+teatro, de escolha de cada usuário. O aplicativo irá permitir que as pessoas se
+informem com mais praticidade, uma vez que, toda informação que precisam
+estará organizada e reunida em seu smartphone.
+    </string>
+    <string name="stringAbout3">
+        \tVendo pelo lado dos interessados em divulgar os espetáculos teatrais, o
+aplicativo fornecerá aos teatros uma oportunidade de levar sua agenda teatral
+aos smartphones de seu público consumidor, agregando um importante meio de
+divulgação.
+    </string>
+    <string name="stringAbout4">
+        \tEste projeto está em fase de desenvolvimento, e trabalhamos para prover um serviço que agrege maior praticidade
+para pessoas com interece neste tipo de entretenimento e, também, para cias de teatro que busquem
+uma forma eficiente de divulgar seus eventos.
+    </string>
+    <string name="stringContact">
+Ismael Thiago Marques\n(19)996583077\nismael.thiago@outlook.com
+    </string>
+    <string name="stringContactTitle">Contato: </string>
+
+    <string name="StringVersaoApp">App Meu Teatro versão Beta</string>
+    <string name="StringQuemSomosTitulo">Quem somos</string>
+    <string name="StringAboutTitle">O projeto \"Meu Teatro\"</string>
+    <string name="strMinhaCidade">Minha cidade</string>
+    <string name="strEstado">Estado</string>
+    <string name="strCidade">Cidade</string>
+    <string name="strUtilDados">Utilização de dados</string>
+    <string name="strUtilDadosOp1">Dados móveis e Wi-Fi</string>
+    <string name="strUtilDadosOp2">Apenas Wi-Fi</string>
+    <string name="strConfigUpdate">Frequência das atualizações</string>
+    <string name="strUpdateOp1">Semanalmente</string>
+    <string name="strUpdateOp2">Quinzenalmente</string>
+    <string name="strUpdateOp3">Mensalmente</string>
+    <string name="strUpdateOp4">Atualizar manaualmente</string>
+    <string name="strMeusTeatros">Meus Teatros</string>
+    <string name="strTeatro">Teatro</string>
+    <string name="tela_principal">Tela Principal</string>
+    <string name="stringAddTeatro2">Adicionar novo</string>
+    <string name="stringAddTeatro3">Inserir na lista</string>
+    <string name="itemMenuUpdadeFeed">Atualizar</string>
+    <string name="itemMenuHome">Tela Principal</string>
+    <string name="itemMenuFavorites">Meus Teatros</string>
+    <string name="itemMenuSettings">Configurações</string>
+    <string name="itemMenuAbout">Sobre</string>
+
+    <string name="noContentMessage">Não foi encontrado evento cadastrado</string>
+    <string name="noConnectionMessage">Falha na conexão!</string>
+    <string name="noConnectionMessage2">Não foi possível conectar ao servidor</string>
+    <string name="noMobileConnectionPermission">Atualização apenas no Wi-Fi (cheque suas configurações)</string>
+
+    <string name="turMessageWarning">
+        Esta aplicação está em fase de testes. Alguns dados apresentados aqui não correspondem a informações reais.
+    </string>
+    <string name="turMessageWhatIs">
+        O \"Meu Teatro\" é um aplicativo que lhe permite encontrar espetáculos teatrais em sua cidade ou teatro de preferência.
+    </string>
+    <string name="turMessageConfig">
+        Na tela de configurações, será possível selecionar sua cidade para que a busca inicial seja feita.
+        Também, serão feitas as configurações de uso de dados de rede e período de atualização dos espetáculos.
+    </string>
+    <string name="turMessageHome">
+       \"Home\" é a tela principal do aplicativo, na qual os espetáculos serão exibidos.
+        Clicando sobre um espetáculo, você obterá mais detalhes sobre o mesmo.
+    </string>
+    <string name="turMessageFavorites">
+       	Em \"Meus Teatros\", você poderá criar sua lista de teatros favoritos.
+        Ao clicar sobre algum teatro de sua lista, os espetáculos disponíveis neste teatro serão exibidos.
+    </string>
+    <string name="turMessageEnd1">
+        Obrigado por testar o \"Meu Teatro\"
+    </string>
+    <string name="turMessageEnd2">
+        Iniciar!
+    </string>
+    <string name="turNext">
+        Prosseguir
+    </string>
+    <string name="turTitleHome">Home</string>
+    <string name="turTitleWarning">Atenção!</string>
+</resources>
+

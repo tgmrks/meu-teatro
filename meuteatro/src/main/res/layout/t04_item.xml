@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_marginLeft="0dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:weightSum="1"-->
+
+            <!--android:baselineAligned="false"-->
+            <!--android:id="@+id/LinearLayout1">-->
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/LinearLayout2">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/LinearLayout3"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="2dp">
+
+                    <TextView
+                        android:text="Teatro"
+                        android:id="@+id/txtViewMeusTeatrosTeatro"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@android:style/TextAppearance.Medium"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_gravity="center_vertical" />
+
+                    <TextView
+                        android:text=" - Cidade"
+                        android:id="@+id/txtMeusTeatrosCidade"
+                        android:layout_gravity="center_vertical"
+                        android:layout_alignRight="@+id/txtMeusTeatrosEnd"
+                        android:layout_alignBottom="@+id/txtViewMeusTeatrosTeatro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@android:style/TextAppearance.Medium"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        />
+
+                    <TextView
+                        android:text="(UF)"
+                        android:id="@+id/txtMeusTeatrosUF"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/txtMeusTeatrosCidade"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@android:style/TextAppearance.Medium"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.46"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_gravity="center_vertical" />
+                    />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="endereço do teatro aqui, 000"
+                    android:id="@+id/txtMeusTeatrosEnd"
+                    android:layout_alignParentLeft="true"
+                    android:layout_weight="1.08"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:id="@+id/btnRemoverTeatro"
+                android:clickable="true"
+                android:focusable="false"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_action_delete_holo_light"
+                android:layout_gravity="center_vertical" />
+                <!--android:layout_marginRight="-5dp"-->
+                <!--android:layout_marginTop="-3dp"-->
+                <!--android:layout_marginBottom="-3dp" -->
+
+        <!--</LinearLayout>-->
+
+</RelativeLayout>

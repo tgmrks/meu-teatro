@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe7e7e7"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LinearLayoutAdd1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ff4d4d4d"
+            android:padding="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecionar teatro para lista"
+                android:id="@+id/txtSelecionarTeatro"
+                android:textColor="#ffffffff"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold"
+                android:singleLine="false"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strEstado"
+            android:id="@+id/txtAddUF"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:id="@+id/spinnerAddUF"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strCidade"
+            android:id="@+id/txtAddCidade"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"  />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:id="@+id/spinnerAddCidade"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strTeatro"
+            android:id="@+id/txtAddTeatro"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:id="@+id/spinnerAddTeatro" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressT14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        style="?android:attr/progressBarStyle"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stringAddTeatro3"
+        android:id="@+id/btnGravarTeatro"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="#444444"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>

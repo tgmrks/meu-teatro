@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.fatec.meuteatro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.fatec.meuteatro.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="br.fatec.meuteatro.T01" />
+        <activity android:name="br.fatec.meuteatro.T02" />
+        <activity android:name="br.fatec.meuteatro.T03" />
+        <activity android:name="br.fatec.meuteatro.T04" />
+        <activity android:name="br.fatec.meuteatro.T05" />
+        <activity android:name="br.fatec.meuteatro.T06" />
+        <activity android:name="br.fatec.meuteatro.T07" />
+        <activity android:name="br.fatec.meuteatro.T14" />
+        <activity android:name="br.fatec.meuteatro.T17" />
+        <activity android:name="br.fatec.meuteatro.T06Vazio" />
+        <activity android:name="br.fatec.meuteatro.admclasses.CadastroDeDados" />
+        <activity android:name="br.fatec.meuteatro.admclasses.CadastroTeatroWS" />
+        <activity android:name="br.fatec.meuteatro.admclasses.CadastroEspetaculoWS" />
+    </application>
+
+</manifest>

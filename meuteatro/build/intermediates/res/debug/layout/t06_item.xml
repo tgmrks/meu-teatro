@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:background="#ff020202">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/tableRow"
+        android:id="@+id/LinearLayoutBase">
+
+        <ImageView
+            android:id="@+id/imgViewItem"
+            android:layout_width="150sp"
+            android:layout_height="150dp"
+            android:layout_weight="0.1"
+            android:src="@drawable/dummy1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Titulo da peça "
+                android:id="@+id/txtViewItemTitulo"
+                android:textColor="#ffffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="data e hora"
+                android:id="@+id/txtViewDataHora"
+                android:layout_weight="0.1"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/imageViewClassificacao1"
+        android:src="@drawable/c_0"
+        android:longClickable="false"
+        android:layout_below="@+id/LinearLayoutBase"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="-33dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        android:background="#444444"
+        android:layout_alignBottom="@+id/LinearLayoutBase"></LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/home/ismael/Documentos/MeuTeatro/MeuTeatro/src/main/res/layout/t06_item.xml -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cidades">
+        <item>Campinas</item>
+        <item>Estiva Gerbi</item>
+        <item>Mogi Guaçu</item>
+        <item>Santos</item>
+        <item>São Paulo</item>
+    </string-array>
+</resources>

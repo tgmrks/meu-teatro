@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/dialogIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#222222"
+            android:src="@drawable/ic_action_settings" />
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dialog Title"
+            android:textAllCaps="true"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:paddingBottom="1dp"></LinearLayout>
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.Theme.Dialog"
+        android:text="@string/turMessageConfig"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:paddingBottom="1dp"></LinearLayout>
+
+    <Button
+        android:id="@+id/dialogButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/turNext"
+        style="@android:style/Holo.ButtonBar.AlertDialog"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout><!-- From: file:/home/ismael/Documentos/MeuTeatro/MeuTeatro/src/main/res/layout/custom_dialog.xml -->
